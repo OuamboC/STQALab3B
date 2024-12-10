@@ -13,7 +13,7 @@ public class Main {
         String strength1 = PasswordChecker.assessPasswordStrength(password1);
         System.out.println("Password 1 Strength: " + strength1);
 
-        String password2 = "CanisBrealOuamboIsReadytohelpInTeamsAsSoftwareEngineer!";
+        String password2 = "CanisBrealOuamboIsReadyToHelpInTeamsAsSoftwareEngineer!";
         String strength2 = PasswordChecker.assessPasswordStrength(password2);
         System.out.println("Password 2 Strength: " + strength2);
 
@@ -25,8 +25,12 @@ public class Main {
         String strength4 = PasswordChecker.assessPasswordStrength(password4);
         System.out.println("Password 4 Strength: " + strength4);
 
-        String password5 = "IfYouInterestedcONTACTOnl;my@email";
+        String password5 = "If You Interested Contact Me-via-email📧ouambocanis@gmail.com";
         String strength5 = PasswordChecker.assessPasswordStrength(password5);
         System.out.println("Password 5 Strength: " + strength5);
+
+        String password6 = "TakeOfYourselfAndHopeToHearFromYouSoon.";
+        String strength6 = PasswordChecker.assessPasswordStrength(password6);
+        System.out.println("Password 6 Strength: " + strength6);
     }
 }
