@@ -34,3 +34,4 @@ public class Main {
         System.out.println("Password 6 Strength: " + strength6);
     }
 }
+
